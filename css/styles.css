@@ -8,15 +8,46 @@
     --logo-btn-color: #4d5ae5;
     --hover-color: #404BBF;
     --team-filter-footer-background: #F4F4FD;
+    --border-header-color: #E7E9FC;
 }
-.list {
+
+li {
     list-style: none;
 }
 
-.link {
+a {
     text-decoration: none;
 }
 
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+address{
+    font-style: normal;
+}
+
+.container{
+    width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
 /* ======= COMPONENTS ======= */
 .secondary-title {
     font-weight: 700;
@@ -43,7 +74,11 @@ body {
     font-size: 16px;
     color: var(--secondary-text-color);
 }
-
+/* =======HEADER======= */
+.header{
+    border-bottom: 1px solid var(--border-header-color);
+    padding-top: 25.5px;
+}
 /* ======= LOGO ======= */
 .logo {
     font-family: var(--secondary-font);
@@ -52,7 +87,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--logo-btn-hover-color);
+    color: var(--logo-btn-color);
 }
 
 .black-part-logo {
@@ -75,7 +110,6 @@ body {
 
 .header-contact {
     color: var(--secondary-text-color);
-    font-style: normal;
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
@@ -96,6 +130,10 @@ body {
     background-color: var(--main-text-color);
 }
 
+.hero-title{
+    margin-bottom: 48px;
+    width: 496px;
+}
 .primary-title {
     text-align: center;
     font-size: 56px;
@@ -142,7 +180,9 @@ body {
     color: var(--team-filter-footer-background);
     letter-spacing: 0.02em;
     line-height: 1.5;
+    margin-top: 17.5px;
 }
+
 
 /* ======= /FOOTER ======= */
 /* ========PORTFOLIO====== */
