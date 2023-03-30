@@ -89,6 +89,7 @@ body {
 .header{
     border-bottom: 1px solid var(--border-header-color);
     padding-top: 25.5px;
+    padding-bottom: 25.5px;
 }
 /* ======= LOGO ======= */
 .logo {
